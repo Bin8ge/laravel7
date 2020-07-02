@@ -30,7 +30,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //全局约束
+        //全局约束1
 
         parent::boot();
     }
