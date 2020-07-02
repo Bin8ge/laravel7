@@ -41,3 +41,28 @@ Route::get('lymd/{name}/{age}', function ($name,$age) {
 Route::get('lyk/{name?}', function ($name='lisi') {
     echo 'this is name ' .$name;
 });
+
+
+/**
+ * 三、路由组
+ */
+
+
+#路由组
+Route::prefix('admin')->group(function(){
+    Route::get('admin1', function () {
+        echo 'admin1 ';
+    });
+    Route::get('admin2', function () {
+        echo 'admin2 ';
+    });
+    Route::get('admin3', function () {
+        echo 'admin3 ';
+    });
+});
+
+#路由名前缀
+
+
+#中间件
+
