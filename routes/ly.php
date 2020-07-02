@@ -61,8 +61,52 @@ Route::prefix('admin')->group(function(){
     });
 });
 
-#路由名前缀
+# 路由名前缀: 建议加上一个符号分割
+//Route::name('admin.')->group(function(){
+//    Route::get('lyzqz1',function(){
+//        return '路由名1';
+//    })->name('lym1');;
+//    Route::get('lyzqz2',function(){
+//        return 'hello2';
+//    })->name('lym2');;
+//    Route::get('lyzqz3',function(){
+//        return 'hello3';
+//    })->name('lym3');;
+//});
+//
+//Route::get('lyr',function(){
+//    return redirect()->route('admin.lym1');
+//});
 
+//Route::domain('blog.com')->group(function(){
+//    Route::get('lyym',function(){
+//        return '检测路由域名';
+//    });
+//});
 
-#中间件
+//# 链式调用
+//Route::prefix('larave')->name('admin')->group(function(){
+//    Route::get('lyym',function(){
+//        return '检测路由域名';
+//    });
+//});
+//
+//Route::group(['prefix'=>'admin','domain'=>'blog.com'],function(){
+//    Route::get('lyhh',function(){
+//        return '数组方式';
+//    });
+//});
+
+/*
+ * 1.创建中间件: php artisan make:middleware 中间件名称
+ * 2.编写中间件: 要写到 return $next($request); 之前
+ * 3.注册中间件  blog\app\Http\Kernel.php 的$routeMiddleware中注册对应的中间件
+ * 4.使用中间件: 中间件别名(test)
+ */
+# 创建中间件 php artisan make:middleware
+Route::middleware('test')->group(function(){
+    Route::get('lyzjj',function(){
+        return '检测路由中间件';
+    });
+});
 

@@ -48,7 +48,17 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapLyRoutes();
 
+        $this->mapKzqRoutes();
+
         //
+    }
+
+
+    protected function mapKzqRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/kzq.php'));
     }
 
     /**
