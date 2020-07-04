@@ -15,6 +15,7 @@ class Test
      */
     public function handle($request, Closure $next)
     {
+        echo '中间件 到此一游';
         return $next($request);
     }
 }

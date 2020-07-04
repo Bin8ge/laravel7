@@ -50,15 +50,60 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapKzqRoutes();
 
+        $this->mapStRoutes();
+
+        $this->mapSjkoutes();
+
+        $this->mapMxoutes();
+
         //
     }
 
+
+    /**
+     * Notes:试图
+     * User: bingo
+     * Date: 2020/7/3
+     * Time: 17:01
+     */
+    protected function mapStRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/st.php'));
+    }
+
+    /**
+     * Notes:模型
+     * User: bingo
+     * Date: 2020/7/3
+     * Time: 20:29
+     */
+    protected function mapMxoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/mx.php'));
+    }
+
+    /**
+     * Notes:数据库
+     * User: bingo
+     * Date: 2020/7/3
+     * Time: 17:01
+     */
+    protected function mapSjkoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/st.php'));
+    }
 
     protected function mapKzqRoutes()
     {
         Route::middleware('web')
             ->namespace($this->namespace)
-            ->group(base_path('routes/kzq.php'));
+            ->group(base_path('routes/sjk.php'));
     }
 
     /**
