@@ -16,19 +16,26 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e41e9a57-d242-401a-a85a-a498dfd26905" name="Default Changelist" comment="控制器路由">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Kzq/Hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Kzq/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Kzq/World.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/kzq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog-laravel7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-laravel7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Constracts/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Facades/TestFacade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/TestServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/TestfServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Units/Test/TestC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Units/Test/TestF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Units/Test/Testp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel7.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/ly.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/ly.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +49,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Bin8ge/laravel7.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -146,21 +160,26 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1e5OEx9SL2HlUuGsPWJ5wafyxZr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Units/Test" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\laravel7\app\Units\Test" />
       <recent name="F:\project\liuxing\blog-laravel7" />
     </key>
   </component>
@@ -183,8 +202,33 @@
       <workItem from="1593607880768" duration="8018000" />
       <workItem from="1593692545142" duration="256000" />
       <workItem from="1593693584474" duration="1124000" />
-      <workItem from="1593700891622" duration="2906000" />
+      <workItem from="1593700891622" duration="3148000" />
+      <workItem from="1593858522602" duration="284000" />
+      <workItem from="1593859505444" duration="1855000" />
+      <workItem from="1593912332576" duration="14446000" />
     </task>
+    <task id="LOCAL-00001" summary="控制器路由">
+      <created>1593703826734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593703826734</updated>
+    </task>
+    <task id="LOCAL-00002" summary="控制器路由">
+      <created>1593703849726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593703849726</updated>
+    </task>
+    <task id="LOCAL-00003" summary="控制器路由">
+      <created>1593703889280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593703889280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,15 +244,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="控制器路由" />
     <option name="LAST_COMMIT_MESSAGE" value="控制器路由" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="572" y="357" key="NewPhpFileDialog" timestamp="1593701763756">
+    <state x="542" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1593953227373">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="572" y="357" key="NewPhpFileDialog/0.0.1474.864@0.0.1474.864" timestamp="1593701763756" />
+    <state x="542" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1593953227373" />
+    <state x="579" y="198" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593942201919">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="579" y="198" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1474.864@0.0.1474.864" timestamp="1593942201919" />
+    <state x="572" y="357" key="NewPhpFileDialog" timestamp="1593952814904">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="572" y="357" key="NewPhpFileDialog/0.0.1474.864@0.0.1474.864" timestamp="1593952814904" />
+    <state x="243" y="79" key="SettingsEditor" timestamp="1593918527043">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="243" y="79" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1593918527043" />
+    <state x="536" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593858564552">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="536" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1593858564552" />
+    <state x="400" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1593941958323">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="400" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1593941958323" />
   </component>
 </project>
