@@ -51,6 +51,7 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
+# 获得响应的结果
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
@@ -58,3 +59,47 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
+
+
+//class Student
+//{
+//    public function test($name,$age,$b)
+//    {
+//        var_dump($name,$age,$b);
+//        echo  'this is test';
+//    }
+//
+//    public function hello()
+//    {
+//        echo  'this is hello';
+//    }
+//}
+//
+//class Facades
+//{
+//    protected static function getFacadeAccessor()
+//    {
+//
+//    }
+//
+//
+//    public static function __callStatic($method, $args)
+//    {
+//
+//        $class = static::getFacadeAccessor();
+//        $instance = new $class();
+//
+//        return $instance->$method(...$args);
+//    }
+//}
+//
+//class StudentF extends Facades
+//{
+//    protected static function getFacadeAccessor()
+//    {
+//        return 'Student';
+//    }
+//}
+//
+//StudentF::test([1,2,3],'a','b');# 不会触发
+//StudentF::hello();# 不会触发

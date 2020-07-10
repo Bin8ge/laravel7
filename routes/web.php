@@ -27,4 +27,8 @@ Route::get('qy', function (\App\Constracts\Test $test) {
     return $test->hello();
 });
 
+Route::get('test', function () {
+//    dd(app()->getBindings());
+});
+
 
